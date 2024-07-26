@@ -48,12 +48,41 @@
     flex-direction: column;
 }
 
-.paragraph {
+.paragraph1 {
     font-size: 24px;
+    transform: translateX(30%);
+    opacity: 0;
+    transition: opacity .5s ease-out, transform .5s ease-out;
 }
+
+.paragraph2 {
+    font-size: 24px;
+    transform: translateX(30%);
+    opacity: 0;
+    transition: opacity .5s ease-out, transform .5s ease-out;
+    transition-delay: 0.5s;
+}
+
 
 .titles {
     font-size: 40px;
+    transform: translateX(50%);
+    opacity: 0;
+    transition: opacity .5s ease-out, transform .5s ease-out;
+    transition-delay: 0.25s;
+}
+
+.titles2 {
+    font-size: 40px;
+    transform: translateX(50%);
+    opacity: 0;
+    transition: opacity .5s ease-out, transform .5s ease-out;
+    transition-delay: 0.75s;
+}
+
+.slideIn {
+    opacity: 1;
+    transform: translateX(0%);
 }
 
 .button {

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Abya_Cover_2 from '../../../../../public/images/braggio_cover2.jpg'; 
 import Abya_Cover from '../../../../../public/images/braggio_cover_open.jpg'; 
 import Abya_Logo_Grande from '../../../../../public/images/abya_logo_grande.webp';
+// import Abya_Logo_Grande from '../../../../../public/images/abya_logo_grande_color.png';
 import Link from 'next/link';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';

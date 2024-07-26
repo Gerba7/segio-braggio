@@ -20,7 +20,7 @@ const ContactRow = () => {
 
   return (
       <div className={styles.container} > 
-        <div className={styles.scrollOffset} id='contact'></div>
+        <div className={styles.scrollOffset} id='contacto'></div>
         <div className={styles.back} />
         <div className={styles.top}>
           <div className={styles.left}>

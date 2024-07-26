@@ -1,7 +1,6 @@
 import Clients from '../ui/components/Home/Clients/Clients';
 import ContactRow from '../ui/components/Home/ContactRow/ContactRow';
 import HowWeWork from '../ui/components/Home/HowWeWork/HowWeWork';
-import MainProjects from '../ui/components/Home/MainProjects/MainProjects';
 import Methodology from '../ui/components/Home/Methodology/Methodology';
 import Reasons from '../ui/components/Home/Reasons/Reasons';
 import Types from '../ui/components/Home/Types/Types';
