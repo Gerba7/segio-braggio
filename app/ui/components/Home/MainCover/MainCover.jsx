@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Abya_Cover_2 from '../../../../../public/images/braggio_cover2.jpg'; 
 import Abya_Cover from '../../../../../public/images/braggio_cover_open.jpg'; 
 import Abya_Logo_Grande from '../../../../../public/images/abya_logo_grande.webp';
+import Abya_OT from '../../../../../public/images/cover_OT.jpeg';
 // import Abya_Logo_Grande from '../../../../../public/images/abya_logo_grande_color.png';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -47,7 +48,7 @@ const MainCover = () => {
            <Image className={styles.img} src={Abya_Cover_2} alt='Sabbia cover' priority />
           </div>
           <div className={`${styles.backgroundImage} ${styles.gradientRight} ${styles.right} ${openTraining ? styles.selected : ''} ${inCompany ? styles.notSelected : ''}`} style={{right: 0}}>
-           <Image className={styles.img} style={{right: 0}} src={Abya_Cover} alt='Sabbia cover' priority />
+           <Image className={styles.img} style={{right: 0}} src={Abya_OT} alt='Sabbia cover' priority />
           </div>
           <div className={`${styles.backgroundImage} ${styles.right} ${openTraining ? styles.selected : ''}`} />
         </div>
