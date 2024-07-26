@@ -65,6 +65,11 @@
     width: 100%;
   }
 
+  .selectedLeft {
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  }
+
   .notSelected {
     width: 0%;
   }

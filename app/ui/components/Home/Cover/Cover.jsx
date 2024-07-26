@@ -19,7 +19,7 @@ const Cover = () => {
           <Image className={styles.logoImg} src={Abya_Logo_Grande} alt='Sabbia logo' priority />
         </div>
       </div>
-      <Link className={styles.link} href="#who" aria-label='linkArrow'>
+      <Link className={styles.link} href="#quienes-somos" aria-label='linkArrow'>
         <KeyboardArrowDownIcon color="#fff" style={{fontSize: 'inherit'}} sx={{boxShadow: 'theme.shadows[3]'}} />
       </Link>
     </div>

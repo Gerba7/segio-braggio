@@ -15,6 +15,7 @@ import Integracion from '../../../../../public/images/integracion.jpg';
 const Value = () => {
   return (
     <div className={styles.container}>
+      <div className={styles.scrollOffset} id='valor'></div>
         <div className={styles.top}>
             <p className={styles.paragraph}>Nuestro</p>
             <h3 className={styles.title}>VALOR AGREGADO</h3>
