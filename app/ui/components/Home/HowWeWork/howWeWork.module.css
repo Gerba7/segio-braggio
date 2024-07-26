@@ -102,6 +102,32 @@
 }
 
 
-@media (max-width: 600px) {
+@media  (max-width: 799px) {
+
+    .paragraph1 {
+        font-size: 16px;
+        transform: translateX(50%);
+    }
+    
+    .paragraph2 {
+        font-size: 16px;
+        transform: translateX(50%);
+    }
+    
+    .titles {
+        font-size: 28px;
+        transform: translateX(100%);
+    }
+    
+    .titles2 {
+        font-size: 28px;
+        transform: translateX(100%);
+    }
+
+    .slideIn {
+        opacity: 1;
+        transform: translateX(0%);
+    }
 
 }
+

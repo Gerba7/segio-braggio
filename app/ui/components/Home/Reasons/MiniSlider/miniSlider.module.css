@@ -6,11 +6,15 @@
     overflow: hidden;
 }
 
+.arrow {
+    font-size: 48px;
+}
+
 .arrowLeft,
 .arrowRight {
-    width: 35px;
-    height: 35px;
-    background-color: #232a34e0;
+    width: 55px;
+    height: 55px;
+    background-color: #344b6be0;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -224,7 +228,7 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 699px) {
 
     .slide {
         width: 100vw;

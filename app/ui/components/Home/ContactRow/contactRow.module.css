@@ -161,16 +161,40 @@
 }
 
 
-@media (max-width: 600px) {
 
-    .container {
-        height: 65vh;
-        will-change: transform;
+
+@media  (max-width: 799px) {
+
+    .top {
+        flex-direction: column;
+        gap: 10%;
     }
 
-    .description {
-        width: 80vw;
-        line-height: 20px;
+}
+
+
+@media (min-width: 799px) and (max-width: 999px) {
+
+    .container {
+        padding: 10vh 5vw;
+    }
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+    .container {
+        padding: 10vh 5vw;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    .container {
+        padding: 10vh 10vw;
     }
 
 }

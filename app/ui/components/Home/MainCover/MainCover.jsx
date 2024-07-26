@@ -56,13 +56,13 @@ const MainCover = () => {
         </div>
         <div className={styles.containerLeft}>
           <div className={styles.octagonWrap} onClick={() => handleRoute('in-company')} >
-              <div className={styles.text}>In-Company</div>
+              <div className={styles.text}>IN-COMPANY</div>
             {/* <div className={styles.octagon} /> */}
           </div>
         </div>
         <div className={styles.containerRight}>
           <div className={styles.octagonWrap} onClick={() => handleRoute('open-training')} >
-              <div className={styles.text}>Open training</div>
+              <div className={styles.text}>OPEN TRAINING</div>
             {/* <div className={styles.octagon} /> */}
           </div>
         </div>

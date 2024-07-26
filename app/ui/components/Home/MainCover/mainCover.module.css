@@ -137,9 +137,8 @@
     align-items: center;
     justify-content: center;
     background: var(--brandIn);
-    border-radius: 8px;
     padding: 16px;
-    border: 2px solid var(--brandIn2);
+    border: 1px solid var(--brandIn2);
     color: var(--brandIn2);
     cursor: pointer;
     margin-top: 50vh;
@@ -175,6 +174,7 @@
 
   .text {
     z-index: 7;
+    font-size: 18px;
   }
 
 

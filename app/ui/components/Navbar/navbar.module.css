@@ -71,6 +71,27 @@
     gap: 2vw;
 }
 
+.link {
+    width: max-content;
+    color: #f5f5f5;
+    position: relative;
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust as needed */
+    width: 0px;
+    height: 2px;
+    background-color: var(--brandIn2);
+    border-radius: 10px;
+    transition: width 0.3s ease-in-out;
+}
+
+.link:hover:after {
+    width: 100%;
+}
 
 @media (max-width: 600px) {
     

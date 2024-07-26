@@ -66,10 +66,10 @@ const Navbar = () => {
               </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>
-              <Link href='#quienes-somos' style={{width: 'max-content'}}>Quienes Somos</Link>
-              <Link href='#metodologia'>Metodología</Link>
-              <Link href='/proyectos'>Servicios</Link>
-              <Link href='#contacto'>Contacto</Link>
+              <Link href='#quienes-somos' className={styles.link} style={{width: 'max-content', color: '#f5f5f5'}}>Quiénes Somos</Link>
+              <Link href='#metodologia' className={styles.link}>Metodología</Link>
+              <Link href='/proyectos' className={styles.link}>Valor</Link>
+              <Link href='#contacto' className={styles.link}>Contacto</Link>
           </div>
         </div>
       </div>

@@ -23,40 +23,40 @@ const Methodology = () => {
             <MetCard 
                 style={{opacity: 0}}
                 number={1}
-                title={'DIAGNOSTICO CULTURAL'}
+                title={'DIAGNÓSTICO CULTURAL'}
                 img={Icon1}
                 subtitle={''}
                 paragraph={
-                    'En alineacion a los objetivos estrategicos de la empresa, medimos las tendencias culturales, las brechas y el plan para abordarlas.'
+                    'En alineación a los objetivos estratégicos de la empresa, medimos las tendencias culturales, las brechas y el plan para abordarlas.'
                 }
             />
             <MetCard 
                 number={2}
-                title={'DIAGNOSTICO INDIVIDUAL'}
+                title={'DIAGNÓSTICO INDIVIDUAL'}
                 img={Icon1}
                 subtitle={''}
                 paragraph={
-                    'Diagnostico de los perfiles individuales y grupales de los equipos y sis lideres.'
+                    'Diagnóstico de los perfiles individuales y grupales de los equipos y sis líderes.'
                 }
                 color={'#3D85C6'}
             />
             <MetCard 
                 number={3}
-                title={'CAPACITACION'}
+                title={'CAPACITACIÓN'}
                 img={Icon1}
                 subtitle={''}
                 paragraph={
-                    'Desarrollo de planes de desarrollo individual y de capacitacion grupal.'
+                    'Desarrollo de planes de desarrollo individual y de capacitación grupal.'
                 }
                 color={'#43B4BE'}
             />
             <MetCard 
                 number={4}
-                title={'MEDICION'}
+                title={'MEDICIÓN'}
                 img={Icon1}
                 subtitle={''}
                 paragraph={
-                    'Implementacion del programa, monitoreo y reporteria.'
+                    'Implementación del programa, monitoreo y reportería.'
                 }
                 color={'#8DCBDA'}
             />
