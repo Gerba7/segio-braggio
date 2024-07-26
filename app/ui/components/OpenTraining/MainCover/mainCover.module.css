@@ -1,0 +1,185 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+  }
+  
+  @keyframes resize {
+    0% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .slide {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      position: relative;
+      overflow: hidden;
+      animation-name: resize;
+      animation-duration: 3s;
+      transition: ease 1000ms;
+      flex-direction: row;
+  }
+  
+  .background {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #232a34;
+  }
+  
+  .backgroundImage {
+      width: 50%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      background: #333333;  /*#232a34*/
+      opacity: .2;    /* 0.2 */
+      will-change: width;
+      transition: width .5s ease-in-out;
+  }
+
+  .selected {
+    width: 100%;
+  }
+
+  .notSelected {
+    width: 0%;
+  }
+
+  .left {
+    left: 0;
+  }
+
+  .right {
+    right: 0;
+  }
+
+  .coverLogo {
+    z-index: 3;
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logoImg {
+    width: 500px;
+    height: auto;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY( 0);
+    }
+    40% {
+      transform: translateY( -20px);
+    }
+    60% {
+      transform: translateY( -10px);
+    }
+  }
+
+  .containerLeft{
+    flex: 1;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .containerRight {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .octagonWrap {
+    width:130px;
+    height:130px;
+    position: relative;
+    overflow: hidden;
+    transform: rotate(-22.5deg);
+    margin-bottom: 20vh;
+  }
+
+  .octagon {
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      overflow: hidden;
+      transform: rotate(45deg);
+      border: 3px solid #ffffff;
+      background: rgba(255, 255, 255, 0.2);
+      cursor: pointer;
+  }
+
+  .octagon:hover {
+    background: rgba(35, 42, 52, 0.2);
+    border: 3px solid #232a34;
+
+  }
+
+  .octagon:before {
+      position: absolute;
+      top: -3px; right: -3px; bottom: -3px; left: -3px;
+      transform: rotate(45deg);
+      content: '';
+      border: inherit;
+  }
+
+  .link {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    left: 50%;
+  }
+
+  .text {
+    transform: rotate(22.5deg);
+    z-index: 7;
+  }
+
+
+
+  @media (max-width: 600px) {
+
+    .link {
+      bottom: 100px;
+    }
+
+    .logoImg {
+      width: 300px;
+    }
+
+  }
+
+
+  @media (max-height: 700px) and (min-width: 1000px) {
+
+    .logoImg {
+      width: 350px;
+    }
+
+}

@@ -1,0 +1,32 @@
+.container {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    padding: 15vh 15vw;
+    justify-content: flex-start;
+    gap: 10vh;
+    background-color: #232a34;
+    position: relative;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    z-index: 5;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.paragraph {
+    font-size: 24px;
+}
+
+.slider {
+    width: 50vw;
+    height: 65vh;
+    align-self: center;
+}

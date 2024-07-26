@@ -1,0 +1,96 @@
+.container {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 15vh 15vw;
+    background-color: rgb(35, 42, 52);
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    z-index: 5;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.paragraph {
+    font-size: 24px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-100px * 17));
+        transform: translateX(calc(-100px * 17));
+    }
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+}
+
+.row::before,
+.row::after {
+    background: linear-gradient(to right, rgb(35, 42, 52, 1) 0%, rgb(35, 42, 52, 0) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 11%;
+    z-index: 2;
+}
+
+.row::before {
+    left: 5;
+    top: 0;
+}
+
+.row::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.rowSlider {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    animation: scroll 40s linear infinite;
+    animation-direction: reverse;
+}
+
+.logo {
+    flex-shrink: 0;
+    width: auto;
+    max-height: 80px;
+    padding: 2vh 4vw;
+    transition: padding ease .2s;
+    will-change: padding;
+}
