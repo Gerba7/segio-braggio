@@ -141,12 +141,14 @@
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    background: var(--brandIn);
+    background: var(--brandIn2);
     padding: 16px;
-    border: 1px solid var(--brandIn2);
-    color: var(--brandIn2);
+    font-size: 14px;
+    color: var(--brandIn);
+    font-weight: 700;
     cursor: pointer;
     margin-top: 50vh;
+    font-family: roboto;
   }
 /*
   .octagon {

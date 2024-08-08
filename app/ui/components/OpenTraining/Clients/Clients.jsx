@@ -50,10 +50,10 @@ const Clients = () => {
 
   return (
     <div className={styles.container}>
-        <div className={styles.top}>
+        {/* <div className={styles.top}>
             <h3 className={styles.title}>CLIENTES</h3>
             <p className={styles.paragraph}>que confían</p>
-        </div>
+        </div> */}
         <div className={styles.wrapper}>
             <div className={styles.row}>
                 <div className={styles.rowSlider}>
@@ -74,6 +74,39 @@ const Clients = () => {
                 </div>
             </div>
         </div>
+        {/* <div className={styles.wrapper2}>
+            <div className={styles.serviceContainer}>
+                <div className={styles.icon}>
+                </div>  
+                <p className={styles.description}>
+                    Innovamos en la formación de líderes dentro y fuera de las organizaciones, reinventando el concepto Líder.
+                </p>
+            </div>
+            <div className={styles.serviceContainer}>
+                <div className={styles.icon}>
+                </div>
+                <p className={styles.description}>
+                    Diseñamos los talleres y programas, de acuerdo a las necesidades reales de cada cliente.
+                </p>
+                <h5 className={styles.serviceTitle}>CUSTOMIZACIÓN</h5>
+            </div>
+            <div className={styles.serviceContainer}>
+                <div className={styles.icon}>
+                </div>
+                <p className={styles.description}>
+                    En todas nuestras actividades integramos los nuevos descubrimientos de la Ciencia y el estudio del Ser Integral.
+                </p>
+                <h5 className={styles.serviceTitle}>INTEGRACIÓN</h5>
+            </div>
+            <div className={styles.serviceContainer}>
+                <div className={styles.icon}>
+                </div>
+                <p className={styles.description}>
+                    En todas nuestras actividades integramos los nuevos descubrimientos de la Ciencia y el estudio del Ser Integral.
+                </p>
+                <h5 className={styles.serviceTitle}>INTEGRACIÓN</h5>
+            </div>
+        </div> */}
     </div>
   )
 }

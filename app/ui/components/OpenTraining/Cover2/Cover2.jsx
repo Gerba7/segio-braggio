@@ -2,8 +2,9 @@ import styles from './cover2.module.css';
 import Image from 'next/image';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Link from 'next/link';
-import Abya_Cover from '../../../../../public/images/braggio_cover_open.jpg'; 
+// import Abya_Cover from '../../../../../public/images/braggio_cover_open.jpg'; 
 import Abya_Logo_Grande from '../../../../../public/images/abya_logo_grande.webp';
+import Abya_Cover from '../../../../../public/images/cover_OT.jpeg'; 
 
 
 

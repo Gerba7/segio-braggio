@@ -33,21 +33,27 @@ const Form = () => {
 
   return (
     <form className={styles.form} onSubmit={handleSubmit} id='form'>
-        <div className={styles.formItem}>
-            <label className={styles.label}>Nombre y Apellido</label>
-            <input className={styles.input} type="text" name='name' required />
-        </div>
-        <div className={styles.formItem}>
-            <label className={styles.label}>E-Mail</label>
-            <input className={styles.input} type="email" name='email' required />
-        </div>
-        <div className={styles.formItem}>
-            <label className={styles.label}>Telefono</label>
-            <input className={styles.input} type="number" name='phone' required  />
+        <div className={styles.top}>
+            <div className={styles.formItem}>
+                <label className={styles.label}>Nombre</label>
+                <input className={styles.input} type="text" name='name' required placeholder='Nombre' />
+            </div>
+            <div className={styles.formItem}>
+                <label className={styles.label}>Apellido</label>
+                <input className={styles.input} type="text" name='surname' required placeholder='Apellido' />
+            </div>
+            <div className={styles.formItem}>
+                <label className={styles.label}>E-Mail</label>
+                <input className={styles.input} type="email" name='email' required placeholder='tucorreo@email.com' />
+            </div>
+            <div className={styles.formItem}>
+                <label className={styles.label}>Telefono</label>
+                <input className={styles.input} type="number" name='phone' required placeholder='Telefono'  />
+            </div>
         </div>
         <div className={styles.formItem}>
             <label className={styles.label}>Mensaje</label>
-            <textarea className={styles.textarea} type="text" name='message' required />
+            <textarea className={styles.textarea} type="text" name='message' required placeholder='Mensaje' />
         </div>
         <button className={styles.button} type='submit' form='form' >ENVIAR MENSAJE</button>
     </form>

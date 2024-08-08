@@ -1,11 +1,31 @@
 .container {
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 15vh 15vw;
+    padding: 10vh 15vw;
     align-items: center;
     justify-content: center;
-    gap: 4vh;
+    gap: 15vh;
+    background-color: var(--brandIn2);
+    position: relative;
+}
+
+.scrollOffset {
+    position: absolute;
+    top: -80px;
+    height: 80px;
+}
+
+.background {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+    background-color: var(--brandIn);
+    z-index: 1;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
 }
 
 .top {
@@ -14,6 +34,8 @@
     align-content: center;
     justify-content: center;
     z-index: 5;
+    width: 100%;
+    color: var(--brandIn);
 }
 
 .title {
@@ -23,59 +45,63 @@
 
 .paragraph {
     font-size: 24px;
-    text-align: center;
 }
 
 .wrapper {
     height: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 2vw;
-    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    z-index: 1;
+    grid-gap: 3vw;
 }
 
 .serviceContainer {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20vw;
+    justify-content: flex-start;
     gap: 2vh;
-    padding: 50px;
+    padding: 7vh 2vw;
+    background-color: #f5f5f5;
+    position: relative;
+    height: 25vh;
+    border-radius: 16px;
+    color: var(--brandIn);
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, .04), 0 0 2.4rem rgba(0, 0, 0, .04), 0 .4rem .8rem rgba(0, 0, 0, .04), 0 0 .1rem rgba(0, 0, 0, .04);
+}
+
+.number {
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .serviceTitle {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
     color: var(--text);
     position: relative;
-}
-
-.serviceTitle::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -2vh; /* Adjust as needed */
-    width: 30%;
-    height: 1px;
-    background: rgb(182,154,121);
-    background: linear-gradient(90deg, rgba(182,154,121,1) 0%, rgba(255,216,162,1) 50%, rgba(182,154,121,1) 100%);
-    border-radius: 10px;
-    transition: width 0.3s ease-in-out;
-}
-
-.serviceContainer:hover .title::after {
-    width: 50%;
+    text-align: center; 
 }
 
 .icon {
-    font-size: 56px;
-}
-
-.hr {
-    width: 20%;
-    transition: width .5;
-    color: var(--bgBrand);
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -40px;
+    left: 50%;
+    background-color: var(--brandIn);
+    color: #f5f5f5;
+    border-radius: 50%;
+    transform: translateX(-50%);
 }
 
 .description {
@@ -86,16 +112,6 @@
     margin-top: 4vh;
 }
 
-.serviceContainer:hover {
-    background: rgba(176, 176, 176, 0.1);
-    background: linear-gradient(90deg, rgba(95,92,88,.1) 0%, rgba(130,127,124,.1) 34%, rgba(95,92,88,.1) 100%);
-}
-
-.serviceContainer:hover hr {
-    transition: width 0.5s ease;
-    width: 100%;
-}
-
 .button {
     max-width: max-content;
     padding: 8px 16px;
@@ -104,56 +120,50 @@
 }
 
 
-@media (max-width: 600px) {
+@media  (max-width: 799px) {
 
-    .wrapper {
-        height: 100%;
-        flex-direction: column;
-        margin: 10vh 0vw 10vh 0vw;
-        align-items: center;
+    .container {
+        padding: 10vh 5vw;
     }
 
-    .serviceContainer {
-        width: 90vw;
-        gap: 2vh;
-        padding: 50px;
+    .wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .background {
+        top: 40%;
+        height: 60%;
     }
 
 }
 
 
-@media (max-height: 700px) and (min-width: 1000px) {
+@media (min-width: 799px) and (max-width: 999px) {
 
-
-    .wrapper {
-        margin: 15vh 5vw 15vh 5vw;
-        gap: 1vw;
-    }
-
-    .serviceContainer {
-        width: 30vw;
-        padding: 25px;
-    }
-
-    .description {
-        text-wrap: balance;
+    .container {
+        padding: 10vh 5vw;
     }
 
 }
 
 
-@media (min-width: 601px) and (max-width: 999px) {
+@media (min-width: 1000px) and (max-width: 1199px) {
 
-    .wrapper {
-        height: 100%;
-        flex-direction: column;
-        margin: 10vh 0vw 10vh 0vw;
-        align-items: center;
+    .container {
+        padding: 10vh 5vw;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    .container {
+        padding: 10vh 10vw;
     }
 
     .serviceContainer {
-        width: 60vw;
-        padding: 25px;
+        width: 17vw;
     }
 
 }

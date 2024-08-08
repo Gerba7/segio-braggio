@@ -1,19 +1,19 @@
 .container {
     width: 100%;
-    height: 70vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
     overflow: hidden;
     justify-content: space-between;
-    padding: 15vh 15vw;
-    background-color: rgb(35, 42, 52);
+    padding: 5vh;
+    background-color: rgb(245, 245, 245);
+    color: var(--brandIn);
 }
 
 .top {
     display: flex;
     flex-direction: column;
-    align-content: center;
     z-index: 5;
 }
 
@@ -24,6 +24,7 @@
 
 .paragraph {
     font-size: 24px;
+    margin-left: 2px;
 }
 
 .wrapper {
@@ -31,6 +32,76 @@
     flex-direction: row;
     width: 100%;
     position: relative;
+}
+
+.wrapper2 {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    width: 20vw;
+    height: 50vh;
+    gap: 2vh;
+    padding: 50px;
+    background-color: #f5f5f5;
+    color: #232a34;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.serviceTitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text);
+    position: relative;
+}
+
+.serviceTitle::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -2vh; /* Adjust as needed */
+    width: 30%;
+    height: 1px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    transition: width 0.3s ease-in-out;
+}
+
+.serviceContainer:hover .title::after {
+    width: 50%;
+}
+
+.icon {
+    font-size: 64px;
+}
+
+.hr {
+    width: 20%;
+    transition: width .5;
+    color: #f5f5f5;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--bgBrand);
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.serviceContainer:hover hr {
+    transition: width 0.5s ease;
+    width: 100%;
 }
 
 @keyframes scroll {
@@ -55,7 +126,7 @@
 
 .row::before,
 .row::after {
-    background: linear-gradient(to right, rgb(35, 42, 52, 1) 0%, rgb(35, 42, 52, 0) 100%);
+    background: linear-gradient(to right, rgb(245, 245, 245, 1) 0%, rgb(245, 245, 245, 0) 100%);
     content: '';
     height: 100%;
     position: absolute;

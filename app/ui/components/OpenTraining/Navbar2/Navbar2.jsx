@@ -62,14 +62,16 @@ const Navbar2 = () => {
               </div>
               <Link href='/'>
                   <h1 className={styles.title}>Book IT</h1>
-                  <Image className={styles.logoNavbar} src={Abya_Logo} alt='logo Sabbia' width={navHeight ? 70 : 100} height={navHeight ? 70 : 100} priority />
+                  <Image className={styles.logoNavbar} src={Abya_Logo} alt='logo Sabbia' width={displayMenu ? 50 : (navHeight ? 70 : 100)} height={displayMenu ? 50 : (navHeight ? 70 : 100)} priority />
               </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>
-              <Link href='/quienes-somos' style={{width: 'max-content'}}>Quiénes Somos</Link>
-              <Link href='/servicios'>Servicios</Link>
-              <Link href='/proyectos'>Proyectos</Link>
-              <Link href='/contacto'>Contacto</Link>
+              <Link href='#quienes-somos' style={{width: 'max-content'}}>Quiénes Somos</Link>
+              <Link href='#servicios'>Servicios</Link>
+              <Link href='#nosotros'>Nosotros</Link>
+              <Link href='#experiencia'>Experiencia</Link>
+              <Link href='#equipo'>Equipo</Link>
+              <Link href='#contacto'>Contacto</Link>
           </div>
         </div>
       </div>

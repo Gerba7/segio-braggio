@@ -76,7 +76,6 @@
     
     .container {
         height: 80px;
-        background: var(--text);
         padding: 0;
         display: flex;
         align-items: center;
@@ -88,10 +87,11 @@
 
     .containerHeight {
         padding: 0;
+        background: var(--brandIn);
     }
 
     .logoNavbar {
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     .burger {

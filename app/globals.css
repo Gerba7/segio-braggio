@@ -8,10 +8,11 @@
     #0071ff33 160deg,
     transparent 360deg
   );
-
+  
   --brandIn: #2a344c;
   --brandIn2: #DBBF84;
-
+  --brandVariant: #3D85C6;
+  --brandVariant2: #4bd1fb;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -75,8 +76,3 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
