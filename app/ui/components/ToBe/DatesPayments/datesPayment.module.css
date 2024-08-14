@@ -1,0 +1,162 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 10vh 15vw;
+  justify-content: center;
+  }
+
+  .scrollOffset {
+    position: absolute;
+    top: -80px;
+    height: 80px;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+  }
+
+  .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--mainColor);
+    gap: 3vh;
+    padding: 10vh 0vw 10vh 5vw;
+    border-radius: 32px;
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.4);
+  }
+
+  .title {
+    font-size: var(--title);
+    font-weight: 700;
+    margin-bottom: 2vh;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+  }
+
+  .iconContainer {
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--textColor);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+
+  .titles {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+    font-weight: 300;
+    font-size: var(--paragraph);
+  }
+
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vh;
+    font-size: 1vw;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding-left: 5vw;
+  }
+
+  .subtitle {
+    font-size: var(--subtitle);
+  }
+
+  .payments {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+
+  .payment {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+  }
+
+  .hr {
+    height: 3px;
+    border: none;
+    background-color: var(--textColor);
+  }
+
+
+  
+
+@media  (max-width: 799px) {
+
+  .container {
+      padding: 10vh 5vw;
+  }
+
+}
+
+
+@media (min-width: 799px) and (max-width: 999px) {
+
+  .container {
+      padding: 10vh 10vw;
+  }
+
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+  .container {
+      padding: 10vh 10vw;
+  }
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+  .container {
+      padding: 10vh 10vw;
+  }
+
+}

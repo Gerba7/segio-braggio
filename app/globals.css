@@ -8,11 +8,21 @@
     #0071ff33 160deg,
     transparent 360deg
   );
+
+  --bg: #ffffff;
+  --textColor: #222222;
   
   --brandIn: #2a344c;
+  --brandGray: #706a6a;
   --brandIn2: #DBBF84;
   --brandVariant: #3D85C6;
   --brandVariant2: #4bd1fb;
+
+  --title: 2.5vw;
+  --title2: 1.9vw;
+  --subtitle: 1.2vw;
+  --paragraph: 1vw;
+
 }
 
 @media (prefers-color-scheme: dark) {

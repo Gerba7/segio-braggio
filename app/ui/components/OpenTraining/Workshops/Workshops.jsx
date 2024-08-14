@@ -30,7 +30,7 @@ const programas = [
         description: 'Coaching organizacional'
     },
     {
-        id: 0,
+        id: 8,
         description: 'To Be'
     },
     {
@@ -70,7 +70,7 @@ const talleres = [
         description: 'Design Thinking'
     },
     {
-        id: 0,
+        id: 10,
         description: 'Nuevos negocios'
     },
     {

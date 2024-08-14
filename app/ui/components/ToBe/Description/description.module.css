@@ -1,0 +1,133 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.scrollOffset {
+    position: absolute;
+    top: -80px;
+    height: 80px;
+}
+
+.top {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2vh;
+    font-size: var(--paragraph);
+    padding: 15vh 15vw;
+}
+
+.title {
+    font-size: var(--title2);
+}
+
+.hr {
+    border: none;
+    background-color: #ff8b03;
+    height: 1px;
+    width: 5vw;
+    margin-bottom: 5vh;
+}
+
+.paragraph {
+    font-size: var(--subtitle);
+    width: 80%;
+    font-weight: 300;
+    text-align: center;
+    line-height: 3.5vh;
+}
+
+.bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15vh 15vw;
+    font-size: 1vw;
+    background-color: var(--orange);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    color: var(--bg);
+    gap: 5vh;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title2 {
+    font-size: var(--title2);
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+@media  (max-width: 799px) {
+
+    .top {
+        padding: 10vh 5vw;
+    }
+
+}
+
+
+@media (min-width: 799px) and (max-width: 999px) {
+
+    .top {
+        padding: 10vh 10vw;
+    }
+
+    .bottom {
+        padding: 10vh 10vw;
+    }
+
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+    .top {
+        padding: 10vh 10vw;
+    }
+
+    .bottom {
+        padding: 10vh 10vw;
+    }
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+    .top {
+        padding: 10vh 15vw;
+    }
+
+    .bottom {
+        padding: 15vh 10vw;
+    }
+
+}

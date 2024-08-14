@@ -1,5 +1,5 @@
 import { Roboto } from "next/font/google";
-import Navbar from "../ui/components/Navbar/Navbar";
+import Navbar from "../ui/components/Home/Navbar/Navbar";
 import Footer from "../ui/components/Home/Footer/Footer";
 
 const roboto = Roboto({ subsets: ["latin"], display: 'swap', weight: ['300', '400', '500', '700', '900'], });

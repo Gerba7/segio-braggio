@@ -14,10 +14,9 @@ export default function OpenTrainingLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
-          <Navbar2 />
-            {children}
-          <Footer2 />
-        </body>
+        {children}
+        <Footer2 />
+      </body>
     </html>
   );
 }

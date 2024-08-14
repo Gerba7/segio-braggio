@@ -1,0 +1,116 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    padding: 15vh 10vw;
+}
+
+.scrollOffset {
+    position: absolute;
+    top: -80px;
+    height: 80px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10vh;
+    font-size: var(--paragraph);
+    padding-left: 5vw;
+}
+
+.title {
+    font-size: var(--title);
+}
+
+.li {
+    font-size: var(--subtitle);
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1vw;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    color: var(--bg);
+    gap: 5vh;
+    background-color: var(--textColor);
+    border-radius: 32px;
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.4);
+}
+
+.title2 {
+    font-size: var(--title2);
+}
+
+.li2 {
+    font-size: var(--subtitle);
+    margin-bottom: 1vh;
+    font-weight: 700;
+    margin-left: 1vw;
+}
+
+.li2::marker {
+    color: var(--secColor);
+    font-size: 1.5vw;
+}
+
+.subtitle {
+    color: var(--secColor);
+    font-size: var(--subtitle);
+}
+
+
+
+
+@media  (max-width: 799px) {
+
+    .container {
+        padding: 10vh 5vw;
+    }
+
+}
+
+
+@media (min-width: 799px) and (max-width: 999px) {
+
+    .container {
+        padding: 10vh 10vw;
+    }
+
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+    .container {
+        padding: 10vh 10vw;
+    }
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+    .container {
+        padding: 15vh 10vw;
+    }
+
+}
