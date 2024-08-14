@@ -25,13 +25,13 @@ const IsForYou = () => {
                 <div className={styles.itemContainer}>
                     <CloseIcon color='inherit' />
                     <p className={styles.description}>
-                      Te interesa "un título más y si es internacional mejor".
+                      Te interesa "un título más y si es internacional mejor.
                     </p>
                 </div>
                 <div className={styles.itemContainer}>
                     <CloseIcon color='inherit' />
                     <p className={styles.description}>
-                      Estás esperando resultados "mágicos"
+                      Estás esperando resultados 'mágicos'
                     </p>
                 </div>
                 <div className={styles.itemContainer}>
