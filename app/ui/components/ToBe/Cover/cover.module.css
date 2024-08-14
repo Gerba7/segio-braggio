@@ -72,14 +72,14 @@
     padding: 12px 16px;
     font-size: 1vw;
     border: 2px solid var(--orange);
-    background-color: transparent;
+    background-color: var(--orange);
     color: var(--textColor);
     font-weight: 700;
     cursor: pointer;
   }
 
   .button:hover {
-    background-color: var(--orange);
+    background-color: transparent;
   }
 
   .right {

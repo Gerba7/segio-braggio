@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>
               <Link href='#programa' className={styles.link} style={{width: 'max-content', color: '#f5f5f5'}}>Programa</Link>
-              <Link href='#modulos' className={styles.link}>Modulos</Link>
+              <Link href='#modulos' className={styles.link}>Módulos</Link>
               <Link href='#estructura' className={styles.link}>Estructura</Link>
               <Link href='#inscripcion' className={styles.link}>Inscripción</Link>
           </div>

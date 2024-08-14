@@ -22,12 +22,12 @@ const Modules = () => {
         </div>
         <div className={styles.right}>
             <div className={styles.content}>
-                <h2 className={styles.title2}>Las siguientes disciplinas estánincluidas en el programa:</h2>
+                <h2 className={styles.title2}>Las siguientes disciplinas están incluidas en el programa:</h2>
                 <ul className={styles.ul}>
                     <li className={styles.li2}>LIFE COACHING</li>
                     <li className={styles.li2}>NEUROCIENCIAS APLICADAS</li>
                     <li className={styles.li2}>INTELIGENCIA EMOCIONAL</li>
-                    <li className={styles.li2}>METAFISICA APLICADA</li>
+                    <li className={styles.li2}>METAFÍSICA APLICADA</li>
                     <li className={styles.li2}>AUTOLIDERAZGO</li>
                     <li className={styles.li2}>P.N.L.</li>
                 </ul>
