@@ -30,6 +30,7 @@
     font-size: var(--paragraph);
     font-weight: 700;
     cursor: pointer;
+    color: var(--textColor);
 }
 
 
