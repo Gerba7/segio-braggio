@@ -141,7 +141,35 @@
   }
 
 
-  @media (max-width: 600px) {
+  @media (max-width: 699px) {
+
+    .container {
+      flex-direction: column;
+    }
+
+    .jumboTitle {
+      font-size: 20vw;
+    }
+
+    .title {
+      font-size: 5.5vw;
+    }
+  
+    .subtitle {
+      font-size: 3.7vw;
+    }
+
+    .button {
+      max-width: max-content;
+      padding: 12px 16px;
+      font-size: var(--mobileParagraph);
+      border: 2px solid var(--orange);
+      background-color: var(--orange);
+      color: var(--textColor);
+      font-weight: 700;
+      cursor: pointer;
+    }
+  
 
     .link {
       bottom: 100px;

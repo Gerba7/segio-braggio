@@ -180,9 +180,24 @@
 
 @media  (max-width: 799px) {
 
+    .container {
+        padding: 10vh 5vw;
+        margin-bottom: 5vh;
+    }
+
     .top {
         flex-direction: column;
         gap: 10%;
+    }
+
+    .left {
+        gap: 6vh;
+        padding: 7vh;
+        border-radius: 16px;
+    }
+
+    .jumboTitle {
+        font-size: 14vw;
     }
 
 }

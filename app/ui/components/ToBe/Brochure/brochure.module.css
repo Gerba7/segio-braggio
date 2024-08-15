@@ -41,6 +41,20 @@
         padding: 10vh 5vw;
     }
 
+    .title {
+        font-size: var(--mobileTitle2);
+    }
+
+    .paragraph {
+        font-size: var(--mobileParagraph);
+        margin-bottom: 2vh;
+        line-height: 3vh;
+    }
+
+    .button {
+        font-size: var(--mobileParagraph);
+    }
+
 }
 
 

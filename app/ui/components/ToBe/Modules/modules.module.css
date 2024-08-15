@@ -82,6 +82,39 @@
 
     .container {
         padding: 10vh 5vw;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .left {
+        gap: 5vh;
+        font-size: var(--mobileParagraph);
+        padding-left: 5vw;
+    }
+
+    .title {
+        font-size: var(--mobileTitle);
+    }
+
+    .li {
+        font-size: var(--mobileSubtitle);
+    }
+
+    .title2 {
+        font-size: 4.5vw;
+    }
+
+    .li2 {
+        font-size: var(--mobileSubtitle);
+        margin-left: 3vw;
+    }
+
+    .li2::marker {
+        font-size: 4.2vw;
+    }
+
+    .subtitle {
+        font-size: var(--mobileSubtitle);
     }
 
 }

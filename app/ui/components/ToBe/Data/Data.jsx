@@ -3,7 +3,6 @@ import ToBePage from '../../../../../public/images/ToBePage.jpg';
 import Image from 'next/image';
 import Certified from '../../../../../public/images/certified.png';
 import Classes from '../../../../../public/images/classes.png';
-import Online from '../../../../../public/images/online.png';
 import Online2 from '../../../../../public/images/online2.png';
 
 

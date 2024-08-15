@@ -18,10 +18,18 @@
   --brandVariant: #3D85C6;
   --brandVariant2: #4bd1fb;
 
+  --jumboTitle: 7vw;
   --title: 2.5vw;
   --title2: 1.9vw;
   --subtitle: 1.2vw;
   --paragraph: 1vw;
+
+  --mobileJumboTitle: 20vw;
+  --mobileTitle: 7.1vw;
+  --mobileTitle2: 5.4vw;
+  --mobileSubtitle: 3.4vw;
+  --mobileParagraph: 2.8vw;
+
 
 }
 

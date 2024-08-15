@@ -65,6 +65,7 @@
 
   .bold {
     font-weight: 700;
+    font-size: var(--paragraph);
   }
 
   .text {
@@ -94,6 +95,10 @@
 
   .subtitle {
     font-size: var(--subtitle);
+  }
+
+  .subSubtitle {
+    font-size: var(--paragraph);
   }
 
   .payments {
@@ -126,9 +131,66 @@
 
 @media  (max-width: 799px) {
 
-  .container {
-      padding: 10vh 5vw;
-  }
+    .container {
+      padding: 0;
+      flex-direction: column;
+      gap: 5vh;
+    }
+
+    .left {
+      gap: 3vh;
+      padding: 5vh 5vw;
+      border-radius: 0px;
+      box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.1);
+    }
+
+    .titles {
+      gap: .5vh;
+    }
+
+    .title {
+      font-size: var(--mobileTitle);
+      margin-bottom: 2vh;
+    }
+
+    .item {
+      gap: 3vw;
+    }
+
+    .texts {
+      display: flex;
+      flex-direction: column;
+      gap: .5vh;
+    }
+
+    .bold {
+      font-weight: 700;
+      font-size: var(--mobileSubtitle);
+    }
+
+    .text {
+      font-size: var(--mobileSubtitle);
+    }
+
+    .subtitle {
+      font-size: var(--mobileTitle2);
+    }
+
+    .subSubtitle {
+      font-size: var(--mobileSubtitle);
+    }
+
+    .payments {
+      margin-top: 3vh;
+    }
+
+    .info {
+      gap: 5vw;
+    }
+
+    .hr {
+      margin-right: 5vw;
+    }
 
 }
 

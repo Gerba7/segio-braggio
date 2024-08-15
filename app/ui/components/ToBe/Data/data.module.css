@@ -84,7 +84,29 @@
 @media  (max-width: 799px) {
 
     .container {
-        padding: 10vh 5vw;
+        height: 100vh;
+        padding: 5vh 5vw;
+        flex-direction: column;
+    }
+
+    .wrapperLeft{
+        width: 100%;
+        height: 50%;
+    }
+
+    .title {
+        font-size: var(--mobileTitle2);
+        text-align: center;
+    }
+
+    .badges {
+        gap: 10vw;
+    }
+
+    .badgeTitle {
+        text-align: center;
+        line-height: 2vh;
+        font-size: var(--mobileParagraph);
     }
 
 }

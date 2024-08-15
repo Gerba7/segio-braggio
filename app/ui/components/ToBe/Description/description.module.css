@@ -89,6 +89,47 @@
         padding: 10vh 5vw;
     }
 
+    .title {
+        font-size: var(--mobileTitle2);
+    }
+    
+    .hr {
+        width: 15vw;
+    }
+    
+    .paragraph {
+        font-size: var(--mobileSubtitle);
+        width: 90%;
+    }
+
+    .title {
+        font-size: var(--mobileTitle2);
+        text-align: center;
+    }
+
+    .title2 {
+        font-size: var(--mobileTitle2);
+    }
+
+    .content {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .left {
+        z-index: 3;
+    }
+
+    .right {
+        position: absolute;
+        opacity: .5;
+        justify-content: center;
+    }
+
+    .bottom {
+        padding: 15vh 10vw;
+    }
+
 }
 
 

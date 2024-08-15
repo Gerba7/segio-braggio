@@ -94,12 +94,12 @@ const DatesPayment = () => {
           <div className={styles.content}>
             <h3 className={styles.title}>Inversión</h3>
             <h4 className={styles.subtitle}>PAGO EN DÓLARES (USD)</h4>
-            <h4 className={styles.subtitle} style={{fontSize: '1vw'}}>
+            <h4 className={styles.subSubtitle}>
               AL CONTADO: USD 180<br/>
               2 CUOTAS MENSUALES: USD 95
             </h4>
             <h4 className={styles.subtitle}>PAGO EN PESOS (ARS)</h4>
-            <h4 className={styles.subtitle} style={{fontSize: '1vw'}}>
+            <h4 className={styles.subSubtitle}>
               AL CONTADO: $ 144.000<br/>
               2 CUOTAS MENSUALES: $ 78.000
             </h4>

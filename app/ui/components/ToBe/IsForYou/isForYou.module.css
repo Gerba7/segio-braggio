@@ -22,9 +22,6 @@
     gap: 5vh;
     border-radius: 32px;
     box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.4);
-
-    /* border-bottom-left-radius: 32px;
-    border-top-left-radius: 32px; */
 }
 
 .top {
@@ -81,8 +78,6 @@
     color: var(--bg);
     box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.2);
     border-radius: 32px;
-    /* border-bottom-right-radius: 32px;
-    border-top-right-radius: 32px; */
 }
 
 
@@ -92,7 +87,38 @@
 @media  (max-width: 799px) {
 
     .container {
-        padding: 10vh 5vw;
+        padding: 0vh 5vw 10vh 5vw;
+        flex-direction: column;
+        gap: 10vw;
+    }
+
+    .left {
+        padding: 5vh 5vw;
+        gap: 5vh;
+    }
+
+    .itemContainer {
+        align-items: flex-start;
+        gap: 3vw;
+    }
+
+    .title {
+        font-size: var(--mobileTitle2);
+    }
+
+    .iconContainer {
+        font-size: 2vw;
+        right: -5vw;
+    }
+
+    .description {
+        font-size: var(--mobileSubtitle);
+        line-height: 25px;
+    }
+
+    .right {
+        padding: 5vh 5vw;
+        gap: 5vh;
     }
 
 }
