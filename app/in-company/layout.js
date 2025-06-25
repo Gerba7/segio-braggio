@@ -1,0 +1,22 @@
+import { Roboto } from "next/font/google";
+import Navbar from "../ui/components/Home/Navbar/Navbar";
+import Footer from "../ui/components/Home/Footer/Footer";
+
+const roboto = Roboto({ subsets: ["latin"], display: 'swap', weight: ['300', '400', '500', '700', '900'], });
+
+export const metadata = {
+  title: "Abya Group | In Company",
+  description: "In Company",
+};
+
+export default function InCompanyLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className={roboto.className}>
+        <Navbar />
+          {children}
+        <Footer />
+        </body>
+    </html>
+  );
+}

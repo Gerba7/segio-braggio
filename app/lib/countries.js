@@ -1,0 +1,22 @@
+export const countries = [
+  "Albania", "Alemania", "Andorra", "Antigua y Barbuda", "Argentina",
+  "Armenia", "Australia", "Austria", "Azerbaiyán", "Bahamas",
+  "Barbados", "Belice", "Bélgica", "Bielorrusia", "Bolivia",
+  "Bosnia y Herzegovina", "Brasil", "Bulgaria", "Canadá", "Chile",
+  "Chipre", "Colombia", "Costa Rica", "Croacia", "Cuba",
+  "Dinamarca", "Dominica", "República Dominicana", "Ecuador", "El Salvador",
+  "Eslovaquia", "Eslovenia", "España", "Estonia", "Estados Unidos",
+  "Fiyi", "Finlandia", "Francia", "Georgia", "Granada",
+  "Grecia", "Guatemala", "Guyana", "Haití", "Honduras",
+  "Hungría", "Islandia", "Irlanda", "Italia", "Jamaica",
+  "Kazajistán", "Kiribati", "Kosovo", "Letonia", "Liechtenstein",
+  "Lituania", "Luxemburgo", "Macedonia del Norte", "Malasia", "Malta",
+  "Islas Marshall", "México", "Micronesia", "Moldavia", "Mónaco",
+  "Montenegro", "Nauru", "Países Bajos", "Nueva Zelanda", "Nicaragua",
+  "Noruega", "Palau", "Panamá", "Papúa Nueva Guinea", "Paraguay",
+  "Perú", "Polonia", "Portugal", "Reino Unido", "Rumania",
+  "Rusia", "San Cristóbal y Nieves", "San Marino", "Santa Lucía", 
+  "San Vicente y las Granadinas", "Samoa", "Serbia", "Singapur", "Suecia", "Suiza",
+  "Surinam", "Tonga", "Trinidad y Tobago", "Turquía", "Tuvalu",
+  "Ucrania", "Uruguay", "Vanuatu", "Venezuela"
+];

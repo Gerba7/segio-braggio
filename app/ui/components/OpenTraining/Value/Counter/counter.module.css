@@ -1,0 +1,12 @@
+.counter {
+    font-size: var(--title2);
+}
+
+
+@media  (max-width: 799px) {
+
+    .counter {
+        font-size: var(--mobileTitle2);
+    }
+
+}
