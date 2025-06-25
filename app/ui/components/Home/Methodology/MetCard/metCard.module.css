@@ -54,7 +54,7 @@
 .end {
     right: 50%;
     width: 65%;
-    height: 120px;
+    height: 100px;
     position: absolute;
     background-color: var(--brandIn);
     border-radius: 8px;
